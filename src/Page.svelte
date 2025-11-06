@@ -70,7 +70,6 @@
 
   // Function to handle form submission
   async function submitForm() {
-    // Clear previous errors
     errors.email = '';
     errors.password = '';
 
@@ -175,11 +174,6 @@ async function closeModal() {
   outline: none;
   border: none;
 }
-
-/* .transparentContainerContent {
-  opacity: 0;
-  transform: scale(0.8);
-} */
 
 .animate-in {
   animation: scaleFadeIn 0.7s ease forwards;
